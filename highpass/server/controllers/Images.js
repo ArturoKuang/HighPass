@@ -7,9 +7,7 @@ const Image = models.Image;
 const bucketName = 'lowpass-uploads';
 
 const s3 = new AWS.S3({
-  accessKeyId: 'AKIAIIWLKKESQAT2BAFQ',
-  secretAccessKey: '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',
-  Bucket: bucketName,
+ 
 });
 
 const fileFilter = (req, file, cb) => {
