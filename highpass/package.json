@@ -1,11 +1,11 @@
 {
-  "name": "LowPass",
+  "name": "HighPass",
   "version": "1.0.0",
   "engines": {
     "node": "7.5.0",
     "npm": "4.0.5"
   },
-  "description": "A Simple Login Example using Node.js, Mongo and Redis",
+  "description": "",
   "main": "./server/app.js",
   "scripts": {
     "buildLoginBundle": "babel ./client/login ./client/helper --presets react --out-file ./hosted/loginBundle.js",
