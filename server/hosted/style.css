@@ -1,0 +1,44 @@
+#background {
+    background-image: url("/assets/img/background.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    opacity: .95;
+}
+
+#navbarImg {
+    width: 10.5em;
+}
+
+form#loginForm{
+  color:white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+form#signupForm{
+    color:white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+input.ui.button.formSubmit{
+    margin-top: 10px;
+}
+
+#boxErrorMessage {
+    display:none;
+    position: fixed;
+    top: 63%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}

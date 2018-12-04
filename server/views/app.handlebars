@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/assets/appStyle.css" />
+</head>
+
+<body>
+  <div id="navbar" class="ui top stackable menu">
+    <div class="item">
+      <a href="/login"><img id="navbarImg" src="assets/img/favicon.png"></a>
+    </div>
+    <a href="/account" class="item" id="navAccountButton">Profile</a>
+    <a href="/upload" class="item" id="navUploadButton">Upload</a>
+    <a href="/explore" class="item" id="navExploreButton">Explore</a>
+    <a href="/changePassword" class="item" id="navChangePassword">Change Password</a>
+    <a href="/logout" class="item" id="signoutButton">Sign Out</a>
+  </div>
+
+  <div id="userInfo"></div>
+  <div id="imagePreview"></div>
+  <div id="content"></div>
+  <div id="caman">
+  </div>
+  <div class="ui negative message hidden" id="boxErrorMessage"></div>
+  <div class="ui positive message hidden" id="boxSuccessMessage"></div>
+
+  <script src="/assets/bundle.js"></script>
+</body>
+
+</html>

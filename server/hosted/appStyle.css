@@ -1,0 +1,22 @@
+div#navbar{
+    margin-top: -3px;
+    height: 7%;
+}
+
+img#navbarImg{
+    width: 10.5em;
+}
+
+form#uploadForm{
+    margin-top: 25px;
+}
+
+h2#exploreHeader {
+    margin-right: 1000px;
+}
+
+div#userInfo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
